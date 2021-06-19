@@ -1,0 +1,128 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background: #efefef;
+}
+
+.main__box{
+    margin: auto;
+    width: 20rem;
+    min-height: 40rem;
+    background-color: #ffffff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    box-shadow: 7px 7px 15px #d8dde254,
+    -8px -8px 15px #5165790a, 
+    inset -5px -4px 13px 0px #51657959,
+    inset 6px 7px 12px 0px #fffffff0;
+}
+
+
+.shadow2{
+    box-shadow: 6px 6px 8px rgba(13, 39, 80, 0.25),
+    -6px -6px 10px #fff, 
+    inset -8px -8px 12px rgba(255, 255, 255, 0.7),
+    inset 5px 5px 8px rgba(13, 39, 80, 0.25);
+ }
+
+.shadow1{
+   box-shadow: 7px 7px 15px #d8dde254,
+   -8px -8px 15px #5165790a, 
+   inset -5px -4px 13px 0px #51657959,
+   inset 6px 7px 12px 0px #fffffff0;
+}
+
+
+.user__box{
+    display: flex;
+    align-items: center;
+    padding: 11px 5px;
+    border-bottom: 1px solid rgb(239, 239, 239);
+    position: relative;
+}
+
+.user__box:first-child{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.user__box img{
+    width: 40px; 
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+ .user__box .ph__no{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .user__box .ph__no span:nth-child(1){
+   font-size: 14px;
+ }
+
+ .user__box .ph__no span:nth-child(2){
+    font-size: 11px;
+ }
+
+ .right__arrow{
+    position: absolute;
+    right: 15px;
+    left: auto;
+    font-size: 20px;
+    font-weight: 800;
+    color: hsl(0deg 0% 47%);
+    background: hsl(0deg 0% 94%);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .right__arrow img{
+    width: 10px;
+ }
+
+.keyboard{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    padding: 10px 0px;
+    bottom: 72px;
+    top: auto;
+    border-radius: 0px 0px 20px 20px;
+    width: 20rem;
+    background: rgb(239, 239, 239);
+    box-shadow: 7px 7px 15px #d8dde254,
+    -8px -8px 15px #5165790a, 
+    inset -5px -4px 13px 0px #51657959,
+    inset 6px 7px 12px 0px #fffffff0;
+}
+
+.star__btn{
+    padding-top: 10px !important;
+    font-size: 40px !important;
+}
+
+.shadow_button{
+    box-shadow: 4px 4px 8px rgba(14, 39, 80, 0.25),
+    -4px -4px 8px #fff;
+    border: none;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    margin: 10px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: hsl(0deg 0% 28%);
+ }
+
+ .shadow_button:hover{
+    box-shadow: -3px -3px 7px #a0a0a032,
+    3px 3px 5px rgba(94,104,121,0.417);
+ }
